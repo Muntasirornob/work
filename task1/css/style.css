@@ -8,8 +8,9 @@ header{
     justify-content:space-around;
     align-items:center;
     padding: 5px 5px;
-    background-color:#F0FFF0 ;
     height: 50px;
+    background: rgb(240,255,240);
+    background: linear-gradient(129deg, rgba(240,255,240,1) 27%, rgba(255,255,255,1) 98%);
 
 }
 .bg-color{
@@ -25,7 +26,7 @@ header{
 }
 .nav_links li a{
     text-decoration: none;
-
+    pointer-events: auto;
 
 }
 .nav_links li{
@@ -38,7 +39,7 @@ header{
     padding: 0px 5px;
 }
 .nav-item{
-    margin-right: 14px: 
+    margin-right: 14px;
 }
 
 img{
@@ -86,8 +87,9 @@ p{
     align-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color:#F0FFF0 ;
     padding-top: 5%;
+    background: rgb(240,255,240);
+    background: linear-gradient(129deg, rgba(240,255,240,1) 27%, rgba(255,255,255,1) 98%);
 }
 
 .flex{
@@ -95,3 +97,47 @@ p{
     margin:10px ;
     border-radius:4px solid blue ;
 }
+
+
+
+.input-icons i {
+    position: absolute;
+}
+
+.icon {
+    padding: 10px;
+    color:#ff5d22;
+    min-width: 50px;
+    text-align: center;
+}
+
+button{
+    display: none;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    /*shows elements in a column*/
+    header{
+      flex-direction: column;
+      padding: 25px 22px;
+    }
+    
+    /* deletes margin on top or bottom of the a tag*/
+    .nav_links li{
+      margin: 0;
+    }
+   /* makes sure that the a tag will take the entire screen*/
+   .nav_links li a{
+      display: block;
+    }
+    .default-btn, .input{
+        display: none;
+    }
+    .input-icons .icon{
+        display: none;
+    }
+    
+
+  }

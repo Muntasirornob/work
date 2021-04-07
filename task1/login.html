@@ -4,7 +4,13 @@
 
 <!--head start-->
 <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Login</title>
+
+<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="css/all.css">
 </head>
 <!--head end-->
 
@@ -12,41 +18,47 @@
 <!--body start-->
 <body>
 
-	<div class="background-img">
+	<div class="bg">
 		<div class="container">
 
-			<div class="heading">
-				<img src="images/ICON/Logo.png" alt="" width="30" height="24" class="">
-			</div> <!--heading div end-->
+			<div class="fxt-header">
+				<a href="login-28.html" ><img class="fxt-logo" src="images/logo-28.png" alt="Logo"></a>
+				<ul class="fxt-li">
+					<li><a href="login-28.html" class="switcher-text active">Login</a></li>
+					<li><a href="register-28.html" class="switcher-text inline-text">Register</a></li>
+					<li><a href="forgot-password-28.html" class="switcher-text">Forgot Password</a></li>
+				</ul>
+			</div>
 
-			<div class="selection">
-				<button>Log In</button>
-				<button> Register</button>
-				<button> Forgot Password</button>
-			</div> <!--selection div end-->
+
 
 			<div class="form">
 				<form class="register">
+					<label for="fname">Login into Acoount</label>
 					<input type="text" name="" placeholder="Email">
 					<input type="text" name="" placeholder="******">
-					<small>keep me log in</small>
-					<button> Login</button>
+					<div class="lower-section">
+						<div class="checkbox">
+					<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+					<label for="checkbox"> keep me log in</label><br>
+						</div>
+					<input type="submit" value="Submit">
+				 	</div>
 				</form> <!--form end-->
 
 			</div> <!--form div end-->
 
 			<div class="footer-area">
-				<div class="line"></div>
-				<span> Or Login With</span>
-				<div class="line"></div>
+				
+				<h3><span> Login With </span></h3>
+				
 
 				<div class="icon-area">
 					<i class="fab fa-facebook-square"></i> <!--facebook icon-->
 					<!-- replace icons -->
-					<i class="fa fa-caret-down"></i> 
-					<i class="fa fa-caret-down"></i>
-					<i class="fa fa-caret-down"></i>
-					<i class="fa fa-caret-down"></i>
+					<i class="fab fa-instagram"></i> 
+					<i class="fab fa-twitter-square"></i>
+					<i class="fab fa-facebook-messenger"></i>
 					<!-- replace icons -->
 				</div> <!--icon-area div end-->
 		
@@ -59,3 +71,5 @@
 <!--body end-->
 
 </html>
+
+
