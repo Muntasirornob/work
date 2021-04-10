@@ -1,0 +1,54 @@
+
+body{
+
+    background: rgb(15,3,59);
+    background: linear-gradient(129deg, rgba(15,3,59,1) 1%, rgba(189,201,207,1) 45%);
+    color: cornsilk;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+}
+.lower-section{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}
+
+.flex{
+    width:300 ;
+    margin:12px ;
+    border-radius:4px solid blue ;
+}
+div .right-side{
+    margin-left: 12px;
+    padding-left: 20px;
+    
+}
+
+
+.input-icons i {
+    position: absolute;
+}
+
+.icon {
+    padding: 10px;
+    color:#ff5d22;
+    min-width: 50px;
+    text-align: center;
+}
+img {
+    width: 80%;
+    border-radius: 5px;
+}
+img:hover {
+    width: 50%;
+    border-radius: 25px;
+}
+button{
+    display: none;
+  }
+
